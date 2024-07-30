@@ -1,0 +1,438 @@
+{
+    "hrPLSP": {
+        "hr201FilesTemplate": [
+            {
+                "FileID": 1,
+                "DocumentType": "Resume",
+                "FilePath": "/files/resume1.pdf",
+                "UploadDate": "2024-06-13 00:00:00"
+            },
+            {
+                "FileID": 2,
+                "DocumentType": "Cover Letter",
+                "FilePath": "/files/coverletter1.pdf",
+                "UploadDate": "2024-06-13 00:00:00"
+            }
+        ],
+        "hrApplicantFile": [
+            {
+                "ApplicantID": 1,
+                "FileID": 1,
+                "FilePath": "/applicantfiles/resume1.pdf",
+                "UploadDate": "2024-06-13 00:00:00"
+            },
+            {
+                "ApplicantID": 1,
+                "FileID": 2,
+                "FilePath": "/applicantfiles/coverletter1.pdf",
+                "UploadDate": "2024-06-13 00:00:00"
+            }
+        ],
+        "hrApplicants": [
+            {
+                "ApplicantID": 1,
+                "FirstName": "John",
+                "MiddleName": "A.",
+                "LastName": "Doe",
+                "Email": "john.doe@example.com",
+                "MobileNumber": "+1234567890",
+                "ApplicationDate": "2024-06-12 10:00:00",
+                "Sex": "Male",
+                "Address": "123 Main St, Cityville",
+                "Status": 1,
+                "Position": 1
+            },
+            {
+                "ApplicantID": 2,
+                "FirstName": "Jane",
+                "MiddleName": "B.",
+                "LastName": "Smith",
+                "Email": "jane.smith@example.com",
+                "MobileNumber": "+2345678901",
+                "ApplicationDate": "2024-06-13 09:30:00",
+                "Sex": "Female",
+                "Address": "456 Elm St, Townsville",
+                "Status": 2,
+                "Position": 2
+            },
+            {
+                "ApplicantID": 3,
+                "FirstName": "Michael",
+                "MiddleName": "C.",
+                "LastName": "Johnson",
+                "Email": "michael.johnson@example.com",
+                "MobileNumber": "+3456789012",
+                "ApplicationDate": "2024-06-14 11:15:00",
+                "Sex": "Male",
+                "Address": "789 Oak Ave, Villagetown",
+                "Status": 1,
+                "Position": 3
+            },
+            {
+                "ApplicantID": 4,
+                "FirstName": "Emily",
+                "MiddleName": "D.",
+                "LastName": "Williams",
+                "Email": "emily.williams@example.com",
+                "MobileNumber": "+4567890123",
+                "ApplicationDate": "2024-06-15 08:45:00",
+                "Sex": "Female",
+                "Address": "890 Cedar Blvd, Hamletville",
+                "Status": 2,
+                "Position": 1
+            },
+            {
+                "ApplicantID": 5,
+                "FirstName": "David",
+                "MiddleName": "E.",
+                "LastName": "Brown",
+                "Email": "david.brown@example.com",
+                "MobileNumber": "+5678901234",
+                "ApplicationDate": "2024-06-16 10:30:00",
+                "Sex": "Male",
+                "Address": "123 Pine St, Mountainview",
+                "Status": 1,
+                "Position": 2
+            },
+            {
+                "ApplicantID": 6,
+                "FirstName": "Sarah",
+                "MiddleName": "F.",
+                "LastName": "Garcia",
+                "Email": "sarah.garcia@example.com",
+                "MobileNumber": "+6789012345",
+                "ApplicationDate": "2024-06-17 09:00:00",
+                "Sex": "Female",
+                "Address": "234 Willow Dr, Lakeside",
+                "Status": 1,
+                "Position": 3
+            },
+            {
+                "ApplicantID": 7,
+                "FirstName": "James",
+                "MiddleName": "G.",
+                "LastName": "Martinez",
+                "Email": "james.martinez@example.com",
+                "MobileNumber": "+7890123456",
+                "ApplicationDate": "2024-06-18 11:00:00",
+                "Sex": "Male",
+                "Address": "567 Birch Ln, Riverdale",
+                "Status": 2,
+                "Position": 1
+            },
+            {
+                "ApplicantID": 8,
+                "FirstName": "Olivia",
+                "MiddleName": "H.",
+                "LastName": "Lopez",
+                "Email": "olivia.lopez@example.com",
+                "MobileNumber": "+8901234567",
+                "ApplicationDate": "2024-06-19 08:30:00",
+                "Sex": "Female",
+                "Address": "890 Cedar Ave, Hillside",
+                "Status": 1,
+                "Position": 2
+            },
+            {
+                "ApplicantID": 9,
+                "FirstName": "Matthew",
+                "MiddleName": "I.",
+                "LastName": "Gonzalez",
+                "Email": "matthew.gonzalez@example.com",
+                "MobileNumber": "+9012345678",
+                "ApplicationDate": "2024-06-20 10:45:00",
+                "Sex": "Male",
+                "Address": "456 Oakwood Ave, Lakeside",
+                "Status": 2,
+                "Position": 3
+            },
+            {
+                "ApplicantID": 10,
+                "FirstName": "Sophia",
+                "MiddleName": "J.",
+                "LastName": "Torres",
+                "Email": "sophia.torres@example.com",
+                "MobileNumber": "+0123456789",
+                "ApplicationDate": "2024-06-21 09:15:00",
+                "Sex": "Female",
+                "Address": "123 Maple Blvd, Cityville",
+                "Status": 1,
+                "Position": 1
+            }
+        ],
+        "hrApplicantStatus": [
+            {
+                "StatusID": 1,
+                "Status": "Application"
+            },
+            {
+                "StatusID": 2,
+                "Status": "Review"
+            },
+            {
+                "StatusID": 3,
+                "Status": "Interview"
+            },
+            {
+                "StatusID": 4,
+                "Status": "Submit Requirements"
+            },
+            {
+                "StatusID": 5,
+                "Status": "Hired"
+            },
+            {
+                "StatusID": 6,
+                "Status": "Rejected"
+            }
+        ],
+        "hrApproval": [
+            {
+                "ApprovalID": 1,
+                "ApproverID": 1,
+                "ApprovalTypeID": 1,
+                "RequestedBy": 1,
+                "Status": "Pending",
+                "DateUpdated": "2024-06-13 00:00:00"
+            }
+        ],
+        "hrApprovalType": [
+            {
+                "ApprovalTypeID": 1,
+                "ApprovalType": "Leave"
+            }
+        ],
+        "hrApprovers": [
+            {
+                "EmployeeID": 1,
+                "ApprovalTypeID": 1,
+                "Level": 1,
+                "ApproverID": 1
+            }
+        ],
+        "hrDailyTimeRecord": [
+            {
+                "AttendanceID": 1,
+                "EmployeeID": 1,
+                "TimeIn": "2024-06-12 08:00:00",
+                "TimeOut": "2024-06-12 17:00:00",
+                "Latitude": 37.7749295,
+                "Longitude": -122.4194155
+            }
+        ],
+        "hrDepartment": [
+            {
+                "DepartmentID": 1,
+                "Department": "Human Resources"
+            },
+            {
+                "DepartmentID": 2,
+                "Department": "CCST"
+            },
+            {
+                "DepartmentID": 3,
+                "Department": "SDDFDFDS"
+            }
+        ],
+        "hrEmployees": [
+            {
+                "EmployeeID": 1,
+                "FirstName": "Jane",
+                "MiddleName": "B.",
+                "LastName": "Smith",
+                "Email": "jane.smith@example.com",
+                "MobileNumber": "+0987654321",
+                "HireDate": "2020-01-15 09:00:00",
+                "Sex": "Female",
+                "Address": "456 Elm St, Townsville",
+                "GSISIDNumber": "GSIS123456",
+                "PagIbigIDNumber": "PAGIBIG123456",
+                "SSSNumber": "SSS123456",
+                "Position": 1,
+                "Department": 1
+            },
+            {
+                "EmployeeID": 2,
+                "FirstName": "John",
+                "MiddleName": "D.",
+                "LastName": "Doe",
+                "Email": "john.doe@example.com",
+                "MobileNumber": "+0987654322",
+                "HireDate": "2020-02-01 08:30:00",
+                "Sex": "Male",
+                "Address": "123 Oak Ave, Cityville",
+                "GSISIDNumber": "GSIS654321",
+                "PagIbigIDNumber": "PAGIBIG654321",
+                "SSSNumber": "SSS654321",
+                "Position": 2,
+                "Department": 1
+            },
+            {
+                "EmployeeID": 3,
+                "FirstName": "Mary",
+                "MiddleName": "E.",
+                "LastName": "Johnson",
+                "Email": "mary.johnson@example.com",
+                "MobileNumber": "+0987654323",
+                "HireDate": "2020-03-10 10:15:00",
+                "Sex": "Female",
+                "Address": "789 Maple Blvd, Villagetown",
+                "GSISIDNumber": "GSIS789012",
+                "PagIbigIDNumber": "PAGIBIG789012",
+                "SSSNumber": "SSS789012",
+                "Position": 1,
+                "Department": 2
+            },
+            {
+                "EmployeeID": 4,
+                "FirstName": "David",
+                "MiddleName": "L.",
+                "LastName": "Williams",
+                "Email": "david.williams@example.com",
+                "MobileNumber": "+0987654324",
+                "HireDate": "2020-04-05 11:00:00",
+                "Sex": "Male",
+                "Address": "567 Birch Ln, Hamletville",
+                "GSISIDNumber": "GSIS345678",
+                "PagIbigIDNumber": "PAGIBIG345678",
+                "SSSNumber": "SSS345678",
+                "Position": 3,
+                "Department": 1
+            },
+            {
+                "EmployeeID": 5,
+                "FirstName": "Sarah",
+                "MiddleName": "J.",
+                "LastName": "Brown",
+                "Email": "sarah.brown@example.com",
+                "MobileNumber": "+0987654325",
+                "HireDate": "2020-05-20 09:30:00",
+                "Sex": "Female",
+                "Address": "890 Pine St, Mountainview",
+                "GSISIDNumber": "GSIS567890",
+                "PagIbigIDNumber": "PAGIBIG567890",
+                "SSSNumber": "SSS567890",
+                "Position": 2,
+                "Department": 2
+            },
+            {
+                "EmployeeID": 6,
+                "FirstName": "James",
+                "MiddleName": "M.",
+                "LastName": "Miller",
+                "Email": "james.miller@example.com",
+                "MobileNumber": "+0987654326",
+                "HireDate": "2020-06-15 10:00:00",
+                "Sex": "Male",
+                "Address": "234 Cedar Ave, Riverdale",
+                "GSISIDNumber": "GSIS456789",
+                "PagIbigIDNumber": "PAGIBIG456789",
+                "SSSNumber": "SSS456789",
+                "Position": 1,
+                "Department": 3
+            },
+            {
+                "EmployeeID": 7,
+                "FirstName": "Emily",
+                "MiddleName": "S.",
+                "LastName": "Garcia",
+                "Email": "emily.garcia@example.com",
+                "MobileNumber": "+0987654327",
+                "HireDate": "2020-07-10 08:45:00",
+                "Sex": "Female",
+                "Address": "345 Willow Dr, Lakeside",
+                "GSISIDNumber": "GSIS987654",
+                "PagIbigIDNumber": "PAGIBIG987654",
+                "SSSNumber": "SSS987654",
+                "Position": 3,
+                "Department": 1
+            },
+            {
+                "EmployeeID": 8,
+                "FirstName": "Daniel",
+                "MiddleName": "K.",
+                "LastName": "Martinez",
+                "Email": "daniel.martinez@example.com",
+                "MobileNumber": "+0987654328",
+                "HireDate": "2020-08-25 09:15:00",
+                "Sex": "Male",
+                "Address": "678 Oakwood Ave, Hillside",
+                "GSISIDNumber": "GSIS876543",
+                "PagIbigIDNumber": "PAGIBIG876543",
+                "SSSNumber": "SSS876543",
+                "Position": 2,
+                "Department": 2
+            },
+            {
+                "EmployeeID": 9,
+                "FirstName": "Olivia",
+                "MiddleName": "N.",
+                "LastName": "Lopez",
+                "Email": "olivia.lopez@example.com",
+                "MobileNumber": "+0987654329",
+                "HireDate": "2020-09-10 10:30:00",
+                "Sex": "Female",
+                "Address": "456 Elm St, Townsville",
+                "GSISIDNumber": "GSIS765432",
+                "PagIbigIDNumber": "PAGIBIG765432",
+                "SSSNumber": "SSS765432",
+                "Position": 1,
+                "Department": 3
+            },
+            {
+                "EmployeeID": 10,
+                "FirstName": "Matthew",
+                "MiddleName": "P.",
+                "LastName": "Gonzalez",
+                "Email": "matthew.gonzalez@example.com",
+                "MobileNumber": "+0987654330",
+                "HireDate": "2020-10-15 11:00:00",
+                "Sex": "Male",
+                "Address": "123 Maple St, Lakeside",
+                "GSISIDNumber": "GSIS654321",
+                "PagIbigIDNumber": "PAGIBIG654321",
+                "SSSNumber": "SSS654321",
+                "Position": 2,
+                "Department": 1
+            },
+            {
+                "EmployeeID": 11,
+                "FirstName": "kjhjhjkhjk",
+                "MiddleName": "P.",
+                "LastName": "Gonzalez",
+                "Email": "matthew.gonzalez@example.com",
+                "MobileNumber": "+0987654330",
+                "HireDate": "2020-10-15 11:00:00",
+                "Sex": "Male",
+                "Address": "123 Maple St, Lakeside",
+                "GSISIDNumber": "GSIS654321",
+                "PagIbigIDNumber": "PAGIBIG654321",
+                "SSSNumber": "SSS654321",
+                "Position": 2,
+                "Department": 1
+            }
+        ],
+        "hrEmployees201Files": [
+            {
+                "EmployeeID": 1,
+                "FileID": 1,
+                "FilePath": "/employee201files/file1.pdf",
+                "UploadDate": "2024-06-13 00:00:00"
+            }
+        ],
+        "hrLogin": [
+            {
+                "LoginID": 1,
+                "EmployeeID": 1,
+                "Email": "jane.smith@example.com",
+                "Password": "hashedpassword"
+            }
+        ],
+        "hrPositions": [
+            {
+                "PositionID": 1,
+                "Position": "HR Manager"
+            }
+        ]
+    }
+}
